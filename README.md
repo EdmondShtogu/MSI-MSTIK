@@ -8,7 +8,7 @@ Nëse keni integruar ndonjëherë me një API tjetër që kërkon siguri (si Twi
 
 Kur keni të bëni me OAuth, zakonisht do ta shihni atë të zbatuar si një server OAuth me _dy-këmbë_ ose me _tre-këmbë_. Dallimi kryesor midis tyre është se autentifikimi me _dy-këmbë_ nuk përfshin një përdorues tjetër. Për shembull, nëse dëshironi të keni qasje në një informacion të një përdoruesi të caktuar në Twitter, do të konsumoni serverin me _tre-këmbë_, sepse duhet të gjenerohet një token qasje për përdoruesin në aplikacionin tuaj, përkundrejt vetëm Twitter që ju ofron ju një token. Ne do të përqëndrohemi në varietetin me _tre-këmbë_ pasi është më praktike për përdorim në botën reale.
 
-Ne do të përdorim [oauth-php](http://code.google.com/p/oauth-php/) si framework për serverin tonë OAuth 2. Libraria është e organizuar në Google Code dhe nuk është e listuar në [Packagist](https://packagist.org/), por mund të instalohet duke përdorur [Composer](https://www.sitepoint.com/re-introducing-composer/). Për detaje, shikoni skedarin [composer.json](https://github.com/EdmondShtogu/MSI-MSTIK/blob/master/composer.json) në kodin që shoqëron këtë artikull në dispozicion në GitHub.
+Ne do të përdorim [oauth-php](http://code.google.com/p/oauth-php/) si framework për serverin tonë OAuth 2. Libraria është e organizuar në Google Code dhe nuk është e listuar në [Packagist](https://packagist.org/), por mund të instalohet duke përdorur [Composer](https://www.sitepoint.com/re-introducing-composer/). Për detaje, shikoni skedarin [composer.json](https://github.com/EdmondShtogu/MSI-MSTIK/blob/master/composer.json).
 
 Le të fillojmë me rolet e OAuth!
 
